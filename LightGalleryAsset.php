@@ -9,7 +9,7 @@ class LightGalleryAsset extends AssetBundle
     public $sourcePath = '@npm/lightgallery/dist';
 
     public $js = [
-        YII_DEBUG ? 'js/lightgallery-all.js' : 'js/lightgallery-all.min.js',
+        YII_DEBUG ? 'js/lightgallery.js' : 'js/lightgallery.min.js',
     ];
 
     public $css = [
